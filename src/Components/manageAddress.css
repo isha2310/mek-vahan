@@ -1,0 +1,108 @@
+.user-page{
+    background-color: #ffebef;
+    min-height: 100vh;
+    margin: 0;
+}
+.user{
+    border: 1px solid #c4c3c3;
+    background-color: #ffffff;
+    margin: 2% 0;
+    padding: 0.5% 0.5%;
+    margin-right: 3%;
+    margin-left: 1%;
+    font-weight: bold;
+    font-size: 18px;
+    padding-bottom: -10px;
+}
+.user-logo{
+    height: 10vh;
+    margin-right: 13px;
+}
+.addressBar{
+    height: 8vh;
+    border: 1px solid #c4c3c3;
+    background-color: #ffffff;
+    margin-right: 1%;
+    margin-top: 2.5%;
+    padding: 0.5% 0.5%;
+    display: flex;
+}
+.addAddress{
+    border: none;
+    font-size: 20px;
+    background-color: #ffffff;
+    outline: none;
+    position: absolute;
+    right: 30px;
+
+}
+.addAddress:hover{
+    font-weight: bold;
+}
+.sidebar{
+    min-height: 75vh;
+    border: 1px solid  #c4c3c3;
+    background-color: #ffffff;
+    margin-right: 3%;
+    margin-left: 1%;
+}
+.linkbox{ 
+    border-bottom: 1px solid #c4c3c3;
+    padding: 15px 0;
+    width: 100%;
+}
+.links{
+    color:#000000;
+    padding: 0 15px;
+}
+a:hover{
+    color: #df2323 ;
+}
+a:active{
+    color: #df2323 ;
+    font-weight: bold;
+}
+.content-area{
+    min-height: 83vh;
+    border: 1px solid #c4c3c3;
+    background-color: #ffffff;
+    margin-top: -5%;
+    padding: 0.5%;
+    width: 99%;
+}
+.background{
+    height: 82vh;
+    display: block;
+    margin :auto;
+}
+.add-button{
+    background-color: #df2323 ;
+    color: #ffffff;
+    margin-left: 180px;
+    padding: 2px;
+    width: 80px;
+    border: 1px solid #c4c3c3;
+}
+.card{
+    height: 200px;
+    width: 400px;
+    border: 1px solid #c4c3c3;
+    background-color: #ffffff;
+    margin: 50px 80px;
+}
+.cardTitle{
+    position: absolute;
+    width: 400px;
+    border-bottom: 1px solid #c4c3c3;
+    padding-left: 15px;
+}
+.cardContent{
+    position: relative;
+    top: 50px;
+    padding-left: 15px;
+}
+.card-button{
+    position: absolute;
+    height: 10px;
+    bottom: -100px;
+}
