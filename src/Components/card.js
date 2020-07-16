@@ -31,13 +31,13 @@ const Cards = (props) => {
     return(
         <div className="card">
             <div className="cardTitle">
-                <img src={image} alt="" style={{height: 40, width: 40, paddingRight:10}} align="left" /> 
+                <img src={image} alt="" style={{height: 35, width: 35, paddingRight:10, paddingTop: 3}} align="left" /> 
                 <h2>{props.venue}</h2>
             </div>
             <div className="cardContent">
                 <p>{props.address}</p>
                 <div className="card-button"><button className="add-button" align="right">Edit</button>
-                <button>Delete</button></div>
+                <button style={{width: 80}}>Delete</button></div>
             </div>
         </div>
     )
