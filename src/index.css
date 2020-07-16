@@ -5,8 +5,3 @@ body {
   -moz-osx-font-smoothing: grayscale;
   height: 100vh;
 }
-
-*{
-  font-family: FreeMono, monospace;
-  letter-spacing: 0.5px;
-}

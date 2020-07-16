@@ -17,6 +17,8 @@
   padding: 5%;
   font-size: 5vh;
   color: #df2323 ;
+   font-family: FreeMono, monospace;
+  letter-spacing: 0.5px;
 }
 .login-form{
   padding-left: 15%;
